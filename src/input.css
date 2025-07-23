@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Grotesk;
+    src: url(./assets/fonts/NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: Grotesk-Bold;
+    src: url(./assets/fonts/NeueHaasDisplayBold.ttf);
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-grotesk: Grotesk, sans-serif;
+    --font-grotesk-bold: Grotesk-Bold, sans-serif;
+}
